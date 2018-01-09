@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: A sample template
+Resources:
+  MyEC2Instance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      ImageId: "ami-0798fc7b" # Deep Learning AMI (Amazon Linux Singapore)
+      InstanceType: t2.micro
